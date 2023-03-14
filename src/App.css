@@ -7,6 +7,34 @@
   pointer-events: none;
 }
 
+.container-button {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+
+.buttons {
+  display: flex;
+  margin: 20px;
+}
+
+.button {
+  margin: 0px 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  padding-bottom: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
